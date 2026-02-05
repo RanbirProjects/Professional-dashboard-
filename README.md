@@ -1,20 +1,95 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+## 📸 Project Snapshot
 
-# Run and deploy your AI Studio app
+The Employee Management Dashboard provides a centralized workspace for employees to manage daily professional activities efficiently.
 
-This contains everything you need to run your app locally.
+### Snapshot Sections
+- Employee Login Interface
+- Executive Dashboard Overview
+- Assigned Tasks Panel
+- Pending Tasks Tracker
+- Leave Application & Leave History
+- Payslip View & Download
+- Break Login / Logout Tracking
+- Employee Logout System
 
-View your app in AI Studio: https://ai.studio/apps/drive/1oC3X3rYiOwjVuON4_INybGRWTJh0S3rZ
+---
+
+This repository contains everything required to run the Employee Management Dashboard locally.
+
+---
+
+## Overview
+
+The Employee Dashboard is a modern workplace management application designed to manage employee operations efficiently. It provides a centralized interface for authentication, task management, leave tracking, and payroll access.
+
+The system focuses on improving productivity, simplifying internal workflows, and enabling employees to manage daily activities from a single dashboard.
+
+---
+
+## Core Features
+
+### Employee Authentication
+- Secure employee login and logout
+- Session-based access control
+
+### Dashboard
+- Employee overview panel
+- Assigned tasks summary
+- Pending task tracking
+
+### Task Management
+- View assigned tasks
+- Monitor pending and completed tasks
+- Task status tracking
+
+### Leave Management
+- Apply for leave
+- View leave history
+- Leave status tracking
+
+### Payroll
+- View payslips
+- Download payslips
+
+### Break Management
+- Break login and logout tracking
+
+---
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+### Prerequisites
+- Node.js (Latest LTS recommended)
 
+---
+
+### Installation
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+```bash
+npm install
+Run the development server:
+npm run dev
+The application will start on your local development environment.
+
+Tech Stack
+React
+
+TypeScript
+
+Tailwind CSS
+
+AI Studio Integration
+
+Gemini API
+
+Security & Privacy
+This application operates primarily within the client environment. No sensitive employee information is stored externally unless explicitly configured. Environment variables and API keys are handled locally using .env.local.
+
+License
+This project is intended for educational and internal development purposes.
+
+
+
+
