@@ -1,0 +1,8 @@
+
+{
+  "name": "Ranbir Singh Professional Hub",
+  "description": "A bespoke, high-performance employee ecosystem featuring real-time task management, advanced leave logistics, and secure document access with fluid, human-centric design.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
